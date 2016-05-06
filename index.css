@@ -9,3 +9,21 @@
 	background-color: #DFCA26;
 	/*color: #00000;*/
 }
+
+/*For category panel*/
+.clickable{
+    cursor: pointer;   
+}
+.panel-heading span {
+	margin-top: -20px;
+	font-size: 15px;
+}
+
+.section {
+	padding-bottom: 20px;
+}
+
+/*.category {
+	padding-bottom: 20px;
+}*/
+
