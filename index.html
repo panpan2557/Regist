@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>The HTML5 Herald</title>
+	<title>SKE Registration System</title>
 	<meta name="description" content="SKE Registration System">
 	<meta name="author" content="Punpikorn.R">
 	<!-- My stylesheet -->
@@ -16,22 +16,42 @@
 
 <body>
 
-	<div id="welcome" class="container">
-		
+	<div class="welcome-banner jumbotron">
+		<div class="container">
+			<div class="welcome-upper">
+				<h1>Welcome <b id="student-id" class="student">b5610545722</b></h1>
+				<p>to the SKE Registration System <span class="reg-info label">Academic Year: 2559</span> <span class="reg-info label">Semester: 1</span></p> 
+			</div>
+		</div>
 	</div>
 
-	<div id="search-panel" class="container">
-		
+	<div id="search-panel" class="container-fluid">
+		<div class="row">
+	        <div class="col-md-offset-3 col-md-6">
+	            <div id="search-input">
+	                <div class="input-group col-md-12">
+	                    <input type="text" class="form-control input-lg" placeholder="example" />
+	                    <span class="input-group-btn">
+	                        <button class="btn btn-info btn-lg" type="button">
+	                            <i class="glyphicon glyphicon-search"></i>
+	                        </button>
+	                    </span>
+	                </div>
+	            </div>
+	        </div>
+		</div>
 	</div>
 
-	<div id="subject" class="container">
-		
+	<div id="subject" class="container-fluid">
+		<div class="row">
+			
+		</div>
 	</div>
 
-	<!-- My script -->
-	<script src="script.js"></script>
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<!-- My script -->
+	<script src="script.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>

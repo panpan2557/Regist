@@ -1,0 +1,11 @@
+.welcome-banner {
+	background: linear-gradient(to right, #A9F5A9 , #2EFE9A); 
+}
+.welcome-upper {
+	text-align: center;
+}
+
+.reg-info {
+	background-color: #DFCA26;
+	/*color: #00000;*/
+}
